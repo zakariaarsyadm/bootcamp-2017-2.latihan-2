@@ -21,6 +21,7 @@ Buatlah aplikasi Pelayanan Pembayaran Listrik (PLN) yang terdiri dari modul
 - Transaksi pembelian token harus dicatat
 - Transaksi sisa saldo harus terdeteksi, artinya contohnya sisa saldo `Rp.10.000` ketika membeli token sebesar `Rp.100.000` maka saldonya sekarang harus bertambah menjadi `Rp.110.000`.
 - Pelanggan bisa melihat detail transaksi pembelian token sesuai nomor-pelanggan
+- Harga token sewaktu-waktu dapat berubah
 
 ## Modul Security
 
