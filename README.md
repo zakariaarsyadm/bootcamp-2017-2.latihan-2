@@ -10,7 +10,7 @@ Buatlah aplikasi Pelayanan Pembayaran Listrik (PLN) yang terdiri dari modul
 - Token listrik terdiri dari 
 
 | kode 	| nama produk   | harga    	|
-| :--  	| :--		| :--      	|
+| :--  	| :--		    | :--      	|
 | 20   	| Rp. 20.000	| 21.000   	|
 | 50	| Rp. 50.000	| 51.000	|
 | 100	| Rp. 100.000	| 101.500	|
@@ -35,4 +35,12 @@ Buatlah aplikasi Pelayanan Pembayaran Listrik (PLN) yang terdiri dari modul
 - Sediakan seorang user sebagai admin untuk me-menage data master seperti 
 	- Mengupdate harga token
 	- Aktifasi data pelanggan
+	
+## Cara Mengerjakan 
+
+- Fork repository ini
+- Buat database dengan nama `pln_username` contohnya `pln_dimmaryanto93` dengan menggunakan username / role `bootcamp_2`
+- Jika setelah selesai push ke github repository masing-masing.
+- Code akan di review. jika hasilnya memuaskan akan dimasukan ke contributor repository `tabledatadotcom`
+- Backup Database dimasukan ke dalam repository simpan di file `src/main/resources/db/backup/`
 
