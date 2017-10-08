@@ -35,5 +35,4 @@ Buatlah aplikasi Pelayanan Pembayaran Listrik (PLN) yang terdiri dari modul
 - Sediakan seorang user sebagai admin untuk me-menage data master seperti 
 	- Mengupdate harga token
 	- Aktifasi data pelanggan
-	- 
 
