@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html th:xmlns="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Beli Token Listrik</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <form action="/transaksi/add" th:action="@{/transaksi/add}" method="post" th:method="post" th:object="${tkn}">
+            <div>
+                <select name="namaProduk" id="namaProduk" th:field="*{nama_produk}">
+                   <option th:each="smt : *{namaProduk}" value="20000" th:value="${smt}">
+                        Semester <span th:text="${smt}">20000</span>
+                    </option> 
+                </select>
+            </div>
+            <div>
+                <label for="waktuBeli">Waktu Pembelian</label>
+                <input type="text" id="waktuBeli" name="waktuBeli" th:field="${trnsk.waktuBeli}" th:value="${#dates.format(#dates.createNow(), 'dd MMM yyyy HH:mm')}"/>
+            </div>
+            
+        </form>
+        
+    </body>
+</html>
